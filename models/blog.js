@@ -18,7 +18,7 @@ const blogSchema = new Schema({
     }
 }, { timestamps: true });
 
-//create modal
+//create model
 
 const Blog = mongoose.model('Blog', blogSchema);
 

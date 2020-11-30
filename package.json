@@ -5,7 +5,7 @@
   "main": "nodeunderthehoodexample.js",
   "scripts": {
     "test": "echo \"Error: no test specified\" && exit 1",
-    "start": "node nodeunderthehoodexample.js"
+    "start": "nodemon app.js"
   },
   "author": "Marvin Espira",
   "license": "ISC",
@@ -15,5 +15,9 @@
     "lodash": "^4.17.20",
     "mongoose": "^5.10.15",
     "morgan": "^1.10.0"
+  },
+  "devDependencies": {
+    "eslint": "^7.14.0",
+    "eslint-config-reverentgeek": "^3.1.1"
   }
 }
