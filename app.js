@@ -10,7 +10,7 @@ const app = express();
 // connect to mongodb
 const dbURL = "mongodb+srv://marvin:test1234@cluster0.3zn9t.mongodb.net/node-crash?retryWrites=true&w=majority";
 mongoose.connect(dbURL, { useNewUrlParser: true, useUnifiedTopology: true })
-    .then((result) => app.listen(3000))
+    .then((result) => app.listen(4000))
     .catch((err) => console.log(err));
 
 
